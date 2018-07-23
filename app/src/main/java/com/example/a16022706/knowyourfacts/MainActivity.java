@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Calendar cal = Calendar.getInstance();
-                cal.add(Calendar.SECOND, 5);
+                cal.add(Calendar.MINUTE, 5);
 
                 Intent intent = new Intent(MainActivity.this,
                         NotificationReceiver.class);
